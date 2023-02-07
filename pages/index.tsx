@@ -6,6 +6,7 @@ import SmallCards from "../components/SmallCards";
 import MediumCard from "../MediumCard.json";
 import MediumCards from "../components/MediumCards";
 import LargeCard from "../components/LargeCard";
+import Footer from "../components/Footer";
 
 const Home = ({ exploreData, cardsData }: any) => {
   return (
@@ -48,6 +49,7 @@ const Home = ({ exploreData, cardsData }: any) => {
           buttonText="Get Inspired"
         />
       </main>
+      <Footer />
     </div>
   );
 };
