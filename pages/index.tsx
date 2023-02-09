@@ -13,7 +13,7 @@ const Home = ({ exploreData, cardsData }: any) => {
     <div className="">
       <Head>
         <title>Airbnb</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/airbnb-logo.png" />
       </Head>
       {/* Header */}
       <Header />

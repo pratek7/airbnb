@@ -7,14 +7,17 @@
   },
   "dependencies": {
     "@heroicons/react": "^2.0.14",
+    "date-fns": "^2.29.3",
     "next": "latest",
-    "react": "18.2.0",
+    "react": "^18.2.0",
+    "react-date-range": "^1.4.0",
     "react-dom": "18.2.0",
     "tailwind-scrollbar-hide": "^1.1.7"
   },
   "devDependencies": {
     "@types/node": "18.11.3",
     "@types/react": "18.0.21",
+    "@types/react-date-range": "^1.4.4",
     "@types/react-dom": "18.0.6",
     "autoprefixer": "^10.4.12",
     "postcss": "^8.4.18",
