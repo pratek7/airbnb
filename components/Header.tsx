@@ -18,8 +18,6 @@ const Header = ({ placeholder }: any) => {
   const [noOfGuest, setNoOfGuest] = useState("1");
   const router = useRouter();
   const handelSelect = (ranges: { selection: any }) => {
-    // console.log(ranges);
-
     setStartDate(ranges.selection.startDate);
     setEndDate(ranges.selection.endDate);
   };
@@ -81,6 +79,7 @@ const Header = ({ placeholder }: any) => {
           <UserCircleIcon className="h-6" />
         </div>
       </div>
+
       {searchInput && (
         <div className="flex flex-col col-span-3 mx-auto ">
           <DateRangePicker
